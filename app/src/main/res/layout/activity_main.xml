@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_axis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/xaxistxtView"
+            android:textAppearance="?android:textAppearanceLarge"
+            app:layout_constraintHorizontal_bias="0.113" app:layout_constraintVertical_bias="0.201"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/zeroxaxistxtView"
+            app:layout_constraintHorizontal_bias="0.312" app:layout_constraintVertical_bias="0.201"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/y_axis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/yaxistxtView"
+            app:layout_constraintHorizontal_bias="0.113" app:layout_constraintVertical_bias="0.264"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/zeroyaxistxtView"
+            app:layout_constraintHorizontal_bias="0.312" app:layout_constraintVertical_bias="0.264"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/z_axis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/zaxistxtView"
+            app:layout_constraintHorizontal_bias="0.113" app:layout_constraintVertical_bias="0.326"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/zerozaxistxtView"
+            app:layout_constraintHorizontal_bias="0.312" app:layout_constraintVertical_bias="0.326"/>
+
+</android.support.constraint.ConstraintLayout>
